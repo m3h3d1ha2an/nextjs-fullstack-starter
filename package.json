@@ -6,8 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "biome check",
-    "format": "biome format --write"
+    "lint": "biome lint --write",
+    "fmt": "biome format --write",
+    "fix": "biome check --write",
+    "tsc": "tsc --noEmit",
+    "gen-tree": "tree -I 'node_modules|.next|.git' > structure.txt"
   },
   "dependencies": {
     "next": "16.1.6",
