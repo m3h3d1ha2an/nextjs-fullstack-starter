@@ -1,6 +1,7 @@
 .
 ├── biome.json
 ├── bun.lock
+├── components.json
 ├── next.config.ts
 ├── next-env.d.ts
 ├── package.json
@@ -87,6 +88,7 @@
 │   │   │       └── page.tsx
 │   │   ├── error.tsx
 │   │   ├── favicon.ico
+│   │   ├── global-error.tsx
 │   │   ├── globals.css
 │   │   ├── layout.tsx
 │   │   ├── loading.tsx
@@ -96,6 +98,20 @@
 │   │   ├── forms
 │   │   ├── providers
 │   │   ├── ui
+│   │   │   ├── alert-dialog.tsx
+│   │   │   ├── badge.tsx
+│   │   │   ├── button.tsx
+│   │   │   ├── card.tsx
+│   │   │   ├── combobox.tsx
+│   │   │   ├── dropdown-menu.tsx
+│   │   │   ├── field.tsx
+│   │   │   ├── input-group.tsx
+│   │   │   ├── input.tsx
+│   │   │   ├── label.tsx
+│   │   │   ├── select.tsx
+│   │   │   ├── separator.tsx
+│   │   │   ├── spinner.tsx
+│   │   │   └── textarea.tsx
 │   │   └── upload
 │   ├── hooks
 │   ├── lib
@@ -106,12 +122,13 @@
 │   │   │   ├── cn.ts
 │   │   │   ├── date.ts
 │   │   │   └── format.ts
+│   │   ├── utils.ts
 │   │   └── validations
 │   │       ├── auth.schema.ts
 │   │       ├── common.schema.ts
 │   │       ├── file.schema.ts
 │   │       └── user.schema.ts
-│   ├── proxy.ts
+│   ├── _proxy.ts
 │   └── server
 │       ├── actions
 │       │   ├── auth.actions.ts
@@ -128,4 +145,4 @@
 ├── structure.txt
 └── tsconfig.json
 
-44 directories, 85 files
+44 directories, 102 files
