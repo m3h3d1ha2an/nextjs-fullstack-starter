@@ -1,6 +1,6 @@
 # Next.js Full-Stack Starter
 
- A production-ready Next.js 16 starter with Drizzle ORM, PostgreSQL, Better Auth, Tailwind CSS v4, and Server Actions. Built for scalable management applications with industry-standard architecture.
+A production-ready Next.js 16 starter with Drizzle ORM, PostgreSQL, Better Auth, Tailwind CSS v4, and Server Actions. Built for scalable management applications with industry-standard architecture.
 
 ## Getting Started
 
@@ -8,6 +8,7 @@
 .
 ├── biome.json
 ├── bun.lock
+├── components.json
 ├── next.config.ts
 ├── next-env.d.ts
 ├── package.json
@@ -25,13 +26,25 @@
 │   │   │       └── route.ts
 │   │   ├── (auth)
 │   │   │   ├── _components
+│   │   │   │   ├── forgot-form.tsx
 │   │   │   │   ├── login-form.tsx
-│   │   │   │   └── register-form.tsx
+│   │   │   │   ├── register-form.tsx
+│   │   │   │   ├── reset-form.tsx
+│   │   │   │   └── verify-form.tsx
+│   │   │   ├── forgot
+│   │   │   │   ├── loading.tsx
+│   │   │   │   └── page.tsx
 │   │   │   ├── layout.tsx
 │   │   │   ├── login
 │   │   │   │   ├── loading.tsx
 │   │   │   │   └── page.tsx
-│   │   │   └── register
+│   │   │   ├── register
+│   │   │   │   ├── loading.tsx
+│   │   │   │   └── page.tsx
+│   │   │   ├── reset
+│   │   │   │   ├── loading.tsx
+│   │   │   │   └── page.tsx
+│   │   │   └── verify
 │   │   │       ├── loading.tsx
 │   │   │       └── page.tsx
 │   │   ├── (dashboard)
@@ -82,6 +95,7 @@
 │   │   │       └── page.tsx
 │   │   ├── error.tsx
 │   │   ├── favicon.ico
+│   │   ├── global-error.tsx
 │   │   ├── globals.css
 │   │   ├── layout.tsx
 │   │   ├── loading.tsx
@@ -91,6 +105,20 @@
 │   │   ├── forms
 │   │   ├── providers
 │   │   ├── ui
+│   │   │   ├── alert-dialog.tsx
+│   │   │   ├── badge.tsx
+│   │   │   ├── button.tsx
+│   │   │   ├── card.tsx
+│   │   │   ├── combobox.tsx
+│   │   │   ├── dropdown-menu.tsx
+│   │   │   ├── field.tsx
+│   │   │   ├── input-group.tsx
+│   │   │   ├── input.tsx
+│   │   │   ├── label.tsx
+│   │   │   ├── select.tsx
+│   │   │   ├── separator.tsx
+│   │   │   ├── spinner.tsx
+│   │   │   └── textarea.tsx
 │   │   └── upload
 │   ├── hooks
 │   ├── lib
@@ -101,12 +129,13 @@
 │   │   │   ├── cn.ts
 │   │   │   ├── date.ts
 │   │   │   └── format.ts
+│   │   ├── utils.ts
 │   │   └── validations
 │   │       ├── auth.schema.ts
 │   │       ├── common.schema.ts
 │   │       ├── file.schema.ts
 │   │       └── user.schema.ts
-│   ├── proxy.ts
+│   ├── _proxy.ts
 │   └── server
 │       ├── actions
 │       │   ├── auth.actions.ts
@@ -123,6 +152,6 @@
 ├── structure.txt
 └── tsconfig.json
 
-41 directories, 76 files
+44 directories, 102 files
 
 ```
