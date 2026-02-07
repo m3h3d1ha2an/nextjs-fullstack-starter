@@ -18,13 +18,25 @@
 │   │   │       └── route.ts
 │   │   ├── (auth)
 │   │   │   ├── _components
+│   │   │   │   ├── forgot-form.tsx
 │   │   │   │   ├── login-form.tsx
-│   │   │   │   └── register-form.tsx
+│   │   │   │   ├── register-form.tsx
+│   │   │   │   ├── reset-form.tsx
+│   │   │   │   └── verify-form.tsx
+│   │   │   ├── forgot
+│   │   │   │   ├── loading.tsx
+│   │   │   │   └── page.tsx
 │   │   │   ├── layout.tsx
 │   │   │   ├── login
 │   │   │   │   ├── loading.tsx
 │   │   │   │   └── page.tsx
-│   │   │   └── register
+│   │   │   ├── register
+│   │   │   │   ├── loading.tsx
+│   │   │   │   └── page.tsx
+│   │   │   ├── reset
+│   │   │   │   ├── loading.tsx
+│   │   │   │   └── page.tsx
+│   │   │   └── verify
 │   │   │       ├── loading.tsx
 │   │   │       └── page.tsx
 │   │   ├── (dashboard)
@@ -116,4 +128,4 @@
 ├── structure.txt
 └── tsconfig.json
 
-41 directories, 76 files
+44 directories, 85 files

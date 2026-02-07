@@ -26,6 +26,9 @@
       "a11y": "off",
       "correctness": {
         "noChildrenProp": "off"
+      },
+      "performance": {
+        "noImgElement": "off"
       }
     },
     "domains": {
