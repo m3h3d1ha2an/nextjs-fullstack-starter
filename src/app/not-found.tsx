@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const NotFound = () => {
   return (
-    <div className="bg-linear-to-b from-slate-950 to-slate-900 min-h-screen flex items-center justify-center px-4">
+    <div className="bg-linear-to-b from-slate-950 to-slate-900 min-h-[95vh] flex items-center justify-center px-4">
       <div className="text-center max-w-2xl">
         {/* 404 Image */}
         <div className="mb-8 flex justify-center">

@@ -15,7 +15,7 @@ const AppError = ({ error, reset }: AppErrorProps) => {
   }, [error]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
+    <div className="min-h-[95vh] flex items-center justify-center bg-gray-50 px-4">
       <div className="max-w-md w-full">
         <div className="bg-white shadow-sm rounded-lg p-6">
           <div className="flex items-center justify-center w-12 h-12 mx-auto bg-red-100 rounded-full">
